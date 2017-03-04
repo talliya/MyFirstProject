@@ -1,0 +1,23 @@
+cd <folder> // going to the project folder
+git init // initialising local repository
+
+git clone <url> // getting a copy of existing repo
+cd <folder> // going to git repo
+
+git config --local user.name ”your name and surname”
+git config --local user.email ”your email address”
+git config --local --list // checking repo config
+
+git status // tracking info
+git add [files] // tracking new files
+git add [files] // staging modified files
+git commit –m ”message” // committing changes
+git log // viewing commit history
+git log --oneline // viewing commit history
+
+git remote -v // showing remotes
+git remote add <name> <url> // adding remote
+git remote show <name> // inspecting remote
+git push [remote-name] [branch-name]
+git fetch [remote-name]
+git pull [remote-name]
